@@ -16,7 +16,7 @@ If you already use Deno, you can install **obsct** as a global CLI with a single
 
 ```bash
 deno install -A --name obsct https://raw.githubusercontent.com/<your-username>/obsct/main/src/main.ts
-
+```
 
 This will install the obsct executable into your Deno bin directory (usually ~/.deno/bin).
 
@@ -24,13 +24,9 @@ Make sure the Deno bin directory is in your PATH.
 If not, add it:
 
 macOS / Linux
-
+```bash
 export PATH="$HOME/.deno/bin:$PATH"
-
-
-Windows (PowerShell)
-
-setx PATH "$env:USERPROFILE\.deno\bin;$env:PATH"
+```
 
 ✅ Usage
 obsct scan ~/projects/my-app ~/Documents/obsidian-vault "Code Tasks.md"
@@ -44,4 +40,6 @@ Example comment:
 This will append a new task to the specified note inside your Obsidian vault — no Obsidian plugins required.
 
 🧹 Uninstall
+```bash
 deno uninstall obsct
+```
