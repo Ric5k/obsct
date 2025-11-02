@@ -1,0 +1,72 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/assert@*": "0.224.0",
+    "jsr:@std/assert@0.224": "0.224.0",
+    "jsr:@std/assert@0.224.0": "0.224.0",
+    "jsr:@std/cli@1.0.23": "1.0.23",
+    "jsr:@std/crypto@*": "1.0.5",
+    "jsr:@std/flags@*": "0.224.0",
+    "jsr:@std/fmt@0.224": "0.224.0",
+    "jsr:@std/fs@1.0.19": "1.0.19",
+    "jsr:@std/internal@0.224": "0.224.0",
+    "jsr:@std/internal@^1.0.10": "1.0.12",
+    "jsr:@std/path@1.0.6": "1.0.6",
+    "jsr:@std/path@^1.1.1": "1.1.2"
+  },
+  "jsr": {
+    "@std/assert@0.224.0": {
+      "integrity": "8643233ec7aec38a940a8264a6e3eed9bfa44e7a71cc6b3c8874213ff401967f",
+      "dependencies": [
+        "jsr:@std/fmt",
+        "jsr:@std/internal@0.224"
+      ]
+    },
+    "@std/cli@1.0.23": {
+      "integrity": "bf95b7a9425ba2af1ae5a6359daf58c508f2decf711a76ed2993cd352498ccca"
+    },
+    "@std/crypto@1.0.5": {
+      "integrity": "0dcfbb319fe0bba1bd3af904ceb4f948cde1b92979ec1614528380ed308a3b40"
+    },
+    "@std/flags@0.224.0": {
+      "integrity": "d40eaf58c356b2e1313c6d4e62dc28b614aad2ddae6f5ff72a969e0b1f5ad689",
+      "dependencies": [
+        "jsr:@std/assert@0.224"
+      ]
+    },
+    "@std/fmt@0.224.0": {
+      "integrity": "e20e9a2312a8b5393272c26191c0a68eda8d2c4b08b046bad1673148f1d69851"
+    },
+    "@std/fs@1.0.19": {
+      "integrity": "051968c2b1eae4d2ea9f79a08a3845740ef6af10356aff43d3e2ef11ed09fb06",
+      "dependencies": [
+        "jsr:@std/path@^1.1.1"
+      ]
+    },
+    "@std/internal@0.224.0": {
+      "integrity": "afc50644f9cdf4495eeb80523a8f6d27226b4b36c45c7c195dfccad4b8509291",
+      "dependencies": [
+        "jsr:@std/fmt"
+      ]
+    },
+    "@std/internal@1.0.12": {
+      "integrity": "972a634fd5bc34b242024402972cd5143eac68d8dffaca5eaa4dba30ce17b027"
+    },
+    "@std/path@1.0.6": {
+      "integrity": "ab2c55f902b380cf28e0eec501b4906e4c1960d13f00e11cfbcd21de15f18fed"
+    },
+    "@std/path@1.1.2": {
+      "integrity": "c0b13b97dfe06546d5e16bf3966b1cadf92e1cc83e56ba5476ad8b498d9e3038",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.10"
+      ]
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/cli@1.0.23",
+      "jsr:@std/fs@1.0.19",
+      "jsr:@std/path@1.0.6"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@std/path": "jsr:@std/path@1.0.6",
+    "@std/path/": "jsr:@std/path@1.0.6/",
+    "@std/fs/walk": "jsr:@std/fs@1.0.19/walk",
+    "@std/cli/parse-args": "jsr:@std/cli@1.0.23/parse-args",
+    "@app/": "./src/"
+  }
+}

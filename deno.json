@@ -1,0 +1,21 @@
+{
+  "importMap": "import_map.json",
+  "tasks": {
+    "dev": "deno run -A src/main.ts scan ./examples/sample-project ./examples/vault \"Inbox/Code Tasks.md\"",
+    "build": "deno compile -A -o dist/obs-comment-tasks src/main.ts"
+  },
+  "compilerOptions": {
+    "strict": true
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 100
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  }
+}
