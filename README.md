@@ -15,7 +15,7 @@ md
 If you already use Deno, you can install **obsct** as a global CLI with a single command:
 
 ```bash
-deno install -A --name obsct https://raw.githubusercontent.com/<your-username>/obsct/main/src/main.ts
+deno install -A --name obsct https://raw.githubusercontent.com//obsct/main/src/main.ts
 ```
 
 This will install the obsct executable into your Deno bin directory (usually ~/.deno/bin).
